@@ -1,2 +1,2 @@
-# decentralize-exchange
+# decentralized-exchange
 Dapp for trading tokens
