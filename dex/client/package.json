@@ -1,0 +1,46 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "bootstrap": "^4.4.1",
+    "class-utils": "^0.3.6",
+    "execa": "^6.1.0",
+    "loader-utils": "^3.2.0",
+    "micromatch": "^4.0.4",
+    "moment": "^2.26.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-moment": "^0.9.7",
+    "react-scripts": "^3.2.0",
+    "recharts": "^1.8.5",
+    "set-value": "^4.1.0",
+    "web3": "^1.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
