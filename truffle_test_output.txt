@@ -1,0 +1,28 @@
+truffle(develop)> test
+Using network 'develop'.
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+  Contract: Dex
+    ✓ should deposit tokens (714ms)
+    ✓ should NOT deposit tokens if token does not exist (482ms)
+    ✓ should withdraw tokens (661ms)
+    ✓ should NOT withdraw tokens if token does not exist (142ms)
+    ✓ should NOT withdraw tokens if balance too low (1020ms)
+    ✓ should create limit order (2096ms)
+    ✓ should NOT create limit order if token balance too low (1241ms)
+    ✓ should NOT create limit order if dai balance too low (582ms)
+    ✓ should NOT create limit order if token is DAI (102ms)
+    ✓ should NOT create limit order if token does not not exist (716ms)
+    ✓ should create market order & match (2031ms)
+    ✓ should NOT create market order if token balance too low (545ms)
+    ✓ should NOT create market order if dai balance too low (446ms)
+    ✓ should NOT create market order if token is DAI (752ms)
+    ✓ should NOT create market order if token does not not exist (653ms)
+
+
+  15 passing (2m)
